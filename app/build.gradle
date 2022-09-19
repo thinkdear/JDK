@@ -88,14 +88,14 @@ android {
         majiabaoOne.initWith(buildTypes.release) // 以release的配置来初始化马甲包配置
         majiabaoOne {
             applicationIdSuffix ".one" // 修改马甲包的applicationId，马甲包的application将为com.liunian.majiabaotest.majiabaoOne，即在原来的applicationId后加上配置内容
-            manifestPlaceholders = [APP_NAME: 'JDWeb-1'] // 配置马甲包的应用名称
+            manifestPlaceholders = [APP_NAME: 'JDK'] // 配置马甲包的应用名称
         }
 
         // 第二个马甲包
         majiabaoTwo.initWith(buildTypes.release) // 以release的配置来初始化马甲包配置
         majiabaoTwo {
             applicationIdSuffix ".two" // 修改马甲包的applicationId，马甲包的application将为com.liunian.majiabaotest.majiabaoOne，即在原来的applicationId后加上配置内容
-            manifestPlaceholders = [APP_NAME: 'JDWeb-2'] // 配置马甲包的应用名称
+            manifestPlaceholders = [APP_NAME: 'JDC'] // 配置马甲包的应用名称
         }
     }
     compileOptions {
