@@ -26,7 +26,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
-                APP_NAME: 'JDK',
+                APP_NAME: 'JDK'
 
         ] // 配置主包的应用名称
 
