@@ -26,8 +26,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
-                APP_NAME: '青龙工具',
-                umeng_key: '626b8dded024421570d8f089'
+                APP_NAME: 'JDK',
+
         ] // 配置主包的应用名称
 
         // 管理员    buildConfigField "String", "user_permission", "${user.admin}"
