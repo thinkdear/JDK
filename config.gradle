@@ -21,7 +21,7 @@ ext{
 
     qinglong=[   // 青龙服务器相关参数配置
 
-        "ip"           : "https://ql.xiaozhang.ga", // 地址
+        "ip"           : "https://ql.nn123.xyz/", // 地址
 
         "version"      : "v2.13.8", //青龙版本号，最好还是填一下，免得青龙的版本号接口获取失败，无法处理版本兼容性问题
 
